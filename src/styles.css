@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  font-family: sans-serif;
+}
+
+.form {
+  margin: 10px 0px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none !important;
+  border: 3px solid #93c5fd !important;
+}
+
+.form button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: #93c5fd;
+  outline: none !important;
+  overflow: none !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.comment {
+  margin: 10px 0px;
+  margin-left: 50px;
+}
+
+.comment-box > .comment {
+  margin-left: 0px !important;
+}
+.commentCard {
+  background: lightyellow;
+  padding: 10px;
+}
